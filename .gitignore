@@ -402,3 +402,6 @@ FodyWeavers.xsd
 *.jpg
 *.jpeg
 *.png
+
+#environment variables
+.env
