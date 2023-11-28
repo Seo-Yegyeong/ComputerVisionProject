@@ -1,6 +1,8 @@
 import cv2
 import inference
 import supervision as sv
+import os
+from dotenv import load_dotenv
 
 annotator = sv.BoxAnnotator()
 
@@ -17,10 +19,11 @@ def on_prediction(predictions, image):
     ),
     cv2.waitKey(1)
 
-file_route = "/Users/samuelcho/2023-2/ComputerVision/project3/영일대 자전거.mp4"
+load_dotenv()
+VIDEO_ROUTE = os.getenv("VIDEO_ROUTE")
 
 inference.Stream(
-    source=file_route, # or rtsp stream or camera id
+    source=VIDEO_ROUTE, # or rtsp stream or camera id
     model="bikes-ped-scooters/4", # from Universe
     output_channel_order="BGR",
     use_main_thread=True, # for opencv display
