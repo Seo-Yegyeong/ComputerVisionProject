@@ -76,5 +76,9 @@ python app.py
   한국소비자원, 시각장애인 보행안전실태조사 <br>
   https://www.kca.go.kr/smartconsumer/sub.do?menukey=7301&mode=view&no=1003080871 <br>
   https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_110031_101A <br>
-  
+
 <br><br><br><br>
+
+
+## Notion
+[Link](https://www.notion.so/Teamspace-Home-28f766a4fc96484c8b14a461fa5db94d?pvs=13)
