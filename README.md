@@ -30,6 +30,7 @@
 
 
 ## 실행 화면
+<img src="https://github.com/user-attachments/assets/3935e71d-b0db-48f3-9546-36e41765b07d" width=350 height=400/>
 
 
 ## How to start
